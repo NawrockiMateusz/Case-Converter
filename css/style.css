@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+body{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    color: coral;
+}
+
+.textToTransform{
+    width: 100%;
+    resize: vertical;
+    padding: 10px;
+}
+
+.buttonsContainer{
+    margin-top: 20px;
+}
+
+.button{
+    margin: 5px;
+    background-color: coral;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    color: #3a3a3a;
+}
+button:hover{
+    background-color: #ffa07e;
+}
